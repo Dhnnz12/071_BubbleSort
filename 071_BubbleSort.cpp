@@ -62,8 +62,18 @@ void display() {
 	}
 	cout << endl;
 	cout << endl;
-	
+
 	cout << "Jumlan pass = " << n - 1 << endl; // Menampilkan jumlah dari pass
 	cout << endl;
 	cout << endl;
+}
+int main() {
+
+	input();
+	BubbleSortArray();
+	display();
+	system("pause");
+
+	return 0;
+}
 
