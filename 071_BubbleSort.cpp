@@ -40,7 +40,7 @@ void BubbleSortArray() {   // procedur untuk mengurutkan array dengan metode bub
 		}
 		pass = pass + 1; //step 4
 
-		cout << "\nPass" << pass - 1 << ": "; // number of pass
+		cout << "\nPass" << pass - 1 << ": "; // Menampilkan data number of pass
 		for (int k = 0; k < n; k++) {
 			cout << arr[k] << " ";
 		}
@@ -48,3 +48,22 @@ void BubbleSortArray() {   // procedur untuk mengurutkan array dengan metode bub
 
 	} while (pass <= n - 1); //step 5
 }
+
+void display() {
+	cout << endl;
+	cout << "==================================" << endl;
+	cout << "Element Array yang telah tersusun" << endl;
+	cout << "==================================" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << arr[j] << endl;  //Menampilkan Array
+		if (j < n - 1) {
+			cout << "-->";
+		}
+	}
+	cout << endl;
+	cout << endl;
+	
+	cout << "Jumlan pass = " << n - 1 << endl; // Menampilkan jumlah dari pass
+	cout << endl;
+	cout << endl;
+
